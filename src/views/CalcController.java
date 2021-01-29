@@ -93,9 +93,6 @@ public class CalcController {
        }
         
     }	
-		
-        
-
 	
 	@FXML
 	private void porcessClean(ActionEvent event) {
