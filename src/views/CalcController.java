@@ -34,9 +34,11 @@ public class CalcController {
 
     @FXML
     private void processOperator(ActionEvent event) {
-
+    	
+    	//declarando a variavel value recebendo atributo Button do JavaFX
         String value = ((Button) event.getSource()).getText();
 
+        
        if (!"=".equals(value)) {
     	   if (!operador.isEmpty()) {
     		   if (operador.equals("-") && numberValue == true) {
